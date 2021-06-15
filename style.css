@@ -2,6 +2,17 @@
 	box-sizing: border-box;
 }
 
+section,
+.search-bar,
+li {
+	background-color: lightblue;
+}
+
+img {
+	max-width: 100px;
+	max-height: 100px;
+}
+
 /* grid */
 nav {
 	grid-area: nav;
@@ -29,12 +40,6 @@ body {
 }
 
 /* nav */
-
-section,
-.search-bar,
-li {
-	background-color: lightblue;
-}
 
 ul {
 	padding: 0;
