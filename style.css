@@ -28,7 +28,10 @@ body {
 		'nav main aside';
 }
 
+/* nav */
+
 section,
+.search-bar,
 li {
 	background-color: lightblue;
 }
@@ -39,4 +42,31 @@ ul {
 }
 li {
 	margin: 10px 0;
+}
+
+/* header */
+
+header {
+	display: flex;
+}
+
+header button,
+header div,
+header p {
+	width: 30vw;
+}
+
+header button {
+	height: 30px;
+	width: 80px;
+	margin: auto;
+	margin-left: 0;
+}
+
+.search-bar {
+	text-align: center;
+}
+
+header p {
+	text-align: right;
 }
